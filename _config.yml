@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /large-data-website
+exclude: [‘ia’, ‘visual-style’, ‘README.md’]
