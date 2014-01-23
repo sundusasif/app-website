@@ -20,4 +20,3 @@ document.querySelector('.nav-btn').addEventListener('click', function (e) {
     this.setAttribute('data-state', 'active');
   }
 });
-
