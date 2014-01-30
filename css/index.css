@@ -20,6 +20,9 @@ html {
 }
 
 
+
+
+
 @media only screen and (min-width:100em) {
 	
 	html{
@@ -403,6 +406,59 @@ figure img{
 	max-width: 400px;
 
 	}
+	
+
+#btn-open{
+	border: 0;
+	background-color: transparent;
+	
+	
+	}	
+	
+	
+dialog {
+	
+	/*border: 2px solid #000;
+	border-radius: 8px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);*/
+	
+	}
+	
+dialog::backdrop {
+	
+	background-color: rgba(255,255,0,0.7);
+
+	}
+	
+dialog + .backdrop {
+	
+	/*background-color: rgba(255,255,0,0.5);*/
+
+	}
+	
+/* usually you should style the class and not the id*/
+#btn-close {
+	width: 32px;
+	height: 32px;
+	border-radius: 16px;
+	text-align: center;
+	line-height: 24px;
+	border: 2px solid #fff;
+	background-color: #37b08a;
+	color: #fff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	padding: 0;
+	font-weight: bold;
+	cursor: pointer;
+	position: absolute;
+	top: -16px;
+	right: -16px;
+	}
+	
+#btn-close:focus { outline: none; }
+
+
+
 
 .sec-content {
 		padding: 5%;

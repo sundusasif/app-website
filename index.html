@@ -3,6 +3,7 @@
 <head>
 	<meta charset=utf-8>
 	<title>Social Golfer</title>
+    <link href="css/dialog-polyfill.css" rel="stylesheet">
 	<link href="css/index.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
 	<meta name="handheldfriendly" content="true">
@@ -43,8 +44,18 @@
         	<figure>
             <!--<img src="http://placehold.it/500x400">-->
             
-            <img src="img/iphone2.png" alt="Social Golfer App Demo" />
-				
+            
+           <!-- <button id="btn-open">Open Video</button>
+    
+    <dialog id="video">
+    	<button id="btn-close">×</button>
+    	<!-- <h1>It works!</h1>-->
+     	
+    <button id="btn-open"> <img src="img/iphone2.png" alt="Social Golfer App Demo" /></button>
+			 <dialog id="video">
+             <button id="btn-close">×</button>
+            <div id="video-placeholder"></div>
+    </dialog>	
 		
 			</figure>
          
@@ -99,8 +110,13 @@
     
     
       <!-- container ends here  this might be wrong now-->
-      <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+         
+		  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+		<script src="js/dialog-polyfill.js"></script> 
+		<script src="js/video.js"></script> 
+	
 <script src="js/carousel.js"></script>
 		<script src="js/footer-toggle-hybrid.js"></script> 
+     
 </body>
 </html>
