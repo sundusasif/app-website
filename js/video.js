@@ -3,7 +3,7 @@ var $placeholder = $('#video-placeholder');
 dialogPolyfill.registerDialog($dialog.get(0));
 
 $('#btn-open').on('click', function () {
-	$placeholder.html('<iframe src="http://player.vimeo.com/video/81390814?color=c9ff23&amp;autoplay=1" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+	$placeholder.html('<iframe src="http://player.vimeo.com/video/81390814?color=c9ff23&amp;autoplay=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
 	
 	
 	/*
