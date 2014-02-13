@@ -1,10 +1,7 @@
 
-var rand=Math.round(Math.random() * 2);
-var  file = 'veg-' + rand + '.html';
-$('.rand-veg').load(file);
 
 //Automatically load the dinos.json file as soon as the page loads
-var dinoData = $.ajax('tweets.json', {
+var dinoData = $.ajax('testimonials.json', {
 	//Tell jquery we ar eloading a JSON file and to parse it properly
 	dataType: 'json'
 	
